@@ -1,12 +1,10 @@
 numpy
 pandas
 matplotlib
-keras
-tensorflow
-h5py
-protobuf
-PyMySQL
 scikit-learn
 seaborn
+PyMySQL
 Django
 gunicorn
+h5py
+protobuf
