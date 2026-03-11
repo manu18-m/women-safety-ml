@@ -99,8 +99,7 @@ def CrimePredictAction(request):
         return render(request, 'UserScreen.html', context)
 
 def Panic(request):
-    if request.method == 'GET':
-        return render(request, 'Panic.html', {})
+    return render(request, 'Panic.html', {})
 
 def PanicAction(request):
     if request.method == 'POST':
@@ -173,16 +172,13 @@ def RegisterAction(request):
         return render(request, 'Register.html', context)       
 
 def UserLogin(request):
-    if request.method == 'GET':
-       return render(request, 'UserLogin.html', {})
+    return render(request, 'UserLogin.html', {})
 
 def index(request):
-    if request.method == 'GET':
-       return render(request, 'index.html', {})
+    return render(request, 'index.html', {})
 
 def Register(request):
-    if request.method == 'GET':
-       return render(request, 'Register.html', {})
+    return render(request, 'Register.html', {})
 
 
 
