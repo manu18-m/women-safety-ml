@@ -3,6 +3,7 @@ pandas
 matplotlib
 scikit-learn
 seaborn
+whitenoise
 PyMySQL
 Django
 gunicorn
